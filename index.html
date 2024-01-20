@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css"> 
+    <link rel="icon" href="football.jpg">
+    <title>Document</title>
+</head>
+<body>
+    <audio controls loop src="002.mp3"></audio>
+    <br>
+    <video src="skills.mp4" width="500px" controls loop></video>
+
+    <form action="index.php" method="post" enctype="multipart/form-data">
+
+    <label for="username">username:</label>
+    <input type="text" id="username" minlength="6" maxlength="15" required>
+    <br>
+    <br>
+    <label for="password">password:</label>
+    <input type="password" id="password"  minlength="6" maxlength="15" required>
+    <br><br>
+    <label for="email">email:</label>
+    <br><br>
+    <input type="email" id="email">
+    <br><br>
+    <label for="phone">phone</label>
+    <input type="tel" id="phone" placeholder="123-456-7890" required>
+    <br><br>
+    <label for="date">date:</label>
+    <input type="date" id="date">
+    <br><br>
+    <label for="quantity">quantity:</label>
+    <input type="number" id="quantity">
+    <br><br>   
+    <label for="title">title:</label>
+
+    <label for="Mr.">Mr.</label>
+    <input type="radio" id="Mr." value="Mr." name="title">
+    <label for="Ms.">Ms.</label>
+    <input type="radio" id="Mr." value="Ms." name="title">
+    <label for="PhD.">PhD.</label>
+    <input type="radio" id="Mr." value="PhD."name="title"> <br><br>
+    <label for="payment">payment</label>
+    <select id="payment">
+        <option value="visa">visa</option>
+        <option value="mastercard">mastercard</option>
+        <option value="giftcard">giftcard</option>
+    </select> <br> <br>
+    <label for="subscribe">subscribe</label>
+    <input type="checkbox" id="subscribe"> <br>
+    <label for="comment">comment</label>
+    <textarea name="" id="comment" cols="30" rows="10"></textarea> <br> <br>
+    <label for="file">file</label>
+    <input type="file" id="file" accept="image/jpg"> <br><br>
+    <input type="submit"><br><br>
+</form>
+</body>
+</html> 
